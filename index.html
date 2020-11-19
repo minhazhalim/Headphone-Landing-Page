@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>Phono Headphone Landing Page</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplelightbox@2.7.0/dist/simple-lightbox.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <nav class="navbar">
+          <div class="container">
+               <h1 class="logo">phono</h1>
+               <ul class="nav">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+               </ul>
+          </div>
+     </nav>
+     <section class="section-A">
+          <div class="container">
+               <div>
+                    <h1>the headphone of the future</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                         commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+                         reprehenderit eaque culpa.repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum</p>
+                    <a href="#" class="button">read more</a>
+               </div>
+               <img src="https://i.ibb.co/37Y74kv/showcase.jpg">
+          </div>
+     </section>
+     <section class="section-B" id="about">
+          <div class="overlay">
+               <div class="section-B-inner py-5">
+                    <h3 class="text-2">loud & clear</h3>
+                    <h2 class="text-5 mt-1">people aren't hearing all the music</h2>
+                    <p class="mt-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                    repudiandae laboriosam quia, error tempore porro ducimus voluptate
+                    laborum nostrum iure.</p>
+               </div>
+          </div>
+     </section>
+     <section class="section-C">
+          <div class="gallery">
+               <a href="https://i.ibb.co/CHLBZnp/gal2323.jpg" class="big"><img src="https://i.ibb.co/CHLBZnp/gal2323.jpg"></a>
+               <a href="https://i.ibb.co/4pBbhfY/gal39834.jpg" class="big"><img src="https://i.ibb.co/4pBbhfY/gal39834.jpg"></a>
+               <a href="https://i.ibb.co/xSnHP7g/gal43884.jpg" class="big"><img src="https://i.ibb.co/xSnHP7g/gal43884.jpg"></a>
+               <a href="https://i.ibb.co/QN6Bnrb/gal4958.jpg" class="big"><img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg"></a>
+               <a href="https://i.ibb.co/dGZvj75/gal4545.jpg" class="big"><img src="https://i.ibb.co/dGZvj75/gal4545.jpg"></a>
+               <a href="https://i.ibb.co/S6FVFNt/gal74744.jpg" class="big"><img src="https://i.ibb.co/S6FVFNt/gal74744.jpg"></a>
+          </div>
+     </section>
+     <footer class="section-footer py-4">
+          <div class="container">
+               <div>
+                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                    <a href="https://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com"><i class="fab fa-github fa-2x"></i></a>
+               </div>
+               <div>
+                    <h3>company info</h3>
+                    <ul>
+                         <li><a href="#">all product</a></li>
+                         <li><a href="#">about us</a></li>
+                         <li><a href="#">primary policy</a></li>
+                         <li><a href="#">terms of services</a></li>
+                    </ul>
+               </div>
+               <div>
+                    <h3>blog posts</h3>
+                    <ul>
+                         <li><a href="#">Lorem, ipsum dolor.</a></li>
+                         <li><a href="#">Lorem, ipsum dolor.</a></li>
+                         <li><a href="#">Lorem, ipsum dolor.</a></li>
+                         <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    </ul>
+               </div>
+               <div>
+                    <h3>subscribe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <form class="mt-1" name="email-form" method="POST" data-netlify="true">
+                         <div class="email-form">
+                              <span class="form-control-wrap"><input type="email" name="email" id="email" size="40" placeholder="E-Mail" class="form-control"></span>
+                              <button class="form-control submit"><i class="fas fa-chevron-right"></i></button>
+                         </div>
+                    </form>
+               </div>
+          </div>
+     </footer>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.7.0/dist/simple-lightbox.min.js"></script>
+     <script>
+          $(document).ready(function(){
+               $(function(){
+                    const $gallery = $('.section-C .gallery a').simpleLightbox();
+               });
+          });
+     </script>
+</body>
+</html>
